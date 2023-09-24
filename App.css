@@ -1,0 +1,51 @@
+header {
+  height: 40vh;
+  background-color: rgb(211, 224, 219);
+  overflow: hidden;
+  position: relative;
+}
+
+header img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-300px);
+}
+.addtodo {
+  z-index: 5;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  bottom: 20px;
+  background-color: white;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  gap: 10px;
+}
+
+.input input[type="radio"] {
+  width: 30px;
+  aspect-ratio: 1;
+}
+
+.todolist {
+  display: flex;
+  padding-left: 20%;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  background-color: white;
+  flex-direction: column;
+  transform: translate(40px);
+}
